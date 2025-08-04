@@ -19,14 +19,15 @@ const essentials = [
 
 const EssentialsCards = () => {
     return (
-        <div className="w-full px-4 py-10 bg-white">
+        <div className="hidden w-full px-4 py-10 bg-white md:block">
             <h2 className="text-3xl font-semibold ml-5 mb-6">iPhone essentials.</h2>
 
             <div className="flex m-6  gap-3 md:overflow-visible ">
                 {essentials.map((item, index) => (
                     <div
                         key={index}
-                        className="flex-shrink-0 w-[300px] md:w-1/2 rounded-2xl hover:scale-105 transition ease-in-out duration-300 p-6 bg-cover h-[500px] bg-center text-black shadow-md"
+                        className="flex-shrink-0 w-[300px] md:w-1/2 rounded-2xl
+                         p-6 bg-cover h-[500px] bg-center text-black shadow-md sm:flex flex-col"
                         style={{ backgroundImage: `url(${item.bg})` }}
                     >
                         <div className="flex flex-col h-1/4 backdrop-blur-md items-center justify-top">

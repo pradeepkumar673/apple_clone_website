@@ -24,9 +24,9 @@ function App() {
       <HorizontalFeatureCards />
       <PhoneHero/>
       <FamilyFeature />
-      <CloserLookBanner className="hidden md:block"/>
+      <CloserLookBanner/>
       <KK />
-      <EssentialsCards className="hidden md:block" />
+      <EssentialsCards />
       <SignificantOthers />
       <IphoneHeaderFooter />
     </>

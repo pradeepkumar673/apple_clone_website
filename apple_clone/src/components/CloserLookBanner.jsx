@@ -3,7 +3,7 @@ import bannerImg from "../assets/closer-look.png"; // Replace with your actual i
 
 const CloserLookBanner = () => {
   return (
-    <section className="w-full bg-[#f9f9fa] py-10 px-4">
+    <section className="w-full bg-[#f9f9fa] py-10 px-4 hidden md:block">
       <h1 className="text-4xl sm:text-5xl font-semibold text-center mb-6">
         Take a closer look.
       </h1>
