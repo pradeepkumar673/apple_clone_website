@@ -1,0 +1,41 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+#scroll-container::-webkit-scrollbar {
+  display: none;
+}
+#scroll-container {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+
+
+/*COPIED THIS BELOW CODE FROM CHATGPT, ONLY THIS PART COZ */
+#card-scroll {
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* Internet Explorer 10+ */
+}
+
+#card-scroll::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari, Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
