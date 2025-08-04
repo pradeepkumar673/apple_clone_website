@@ -30,7 +30,7 @@ const cardData = [
   },
 ];
 
-const BestPlaceToBuy = () => {
+const KK = () => {
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
@@ -88,4 +88,4 @@ const BestPlaceToBuy = () => {
   );
 };
 
-export default BestPlaceToBuy;
+export default KK;

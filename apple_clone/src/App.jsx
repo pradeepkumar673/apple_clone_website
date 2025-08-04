@@ -5,12 +5,13 @@ import ProductScroller from './components/ProductScroller.jsx'
 import HorizontalFeatureCards from './components/HorizontalFeatureCards.jsx'
 import FamilyFeature from './components/FamilyFeauture.jsx'
 import CloserLookBanner from './components/CloserLookBanner.jsx'
-import BestPlaceToBuy from './components/BestPlacetoBuy.jsx'
+
 import IphoneHeroSection from './components/IphoneHeroSection.jsx'
 import EssentialsCards from './components/EssentialsCards.jsx'
 import PhoneHero from './PhoneHero.jsx'
 import SignificantOthers from './components/SignificantOthers.jsx'
 import IphoneHeaderFooter from './components/IphoneHeaderFooter.jsx'
+import KK from './components/KK.jsx'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <PhoneHero/>
       <FamilyFeature />
       <CloserLookBanner />
-      <BestPlaceToBuy />
+      <KK />
       <EssentialsCards />
       <SignificantOthers />
       <IphoneHeaderFooter />
