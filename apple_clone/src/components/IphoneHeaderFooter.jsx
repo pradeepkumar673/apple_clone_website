@@ -52,7 +52,7 @@ const IphoneHeaderFooter = () => {
       </div>
 
       {/* Footer Section */}
-      <div className="bg-white text-sm border-t border-gray-300 pt-10 pb-4 px-10">
+      <div className="hidden md:blockbg-white text-sm border-t border-gray-300 pt-10 pb-4 px-10">
         <div className="grid grid-cols-5 gap-8 text-gray-800 mb-6">
           <div>
             <h3 className="font-bold mb-2">Shop and Learn</h3>
